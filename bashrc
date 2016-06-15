@@ -7,6 +7,7 @@ blue="\[\033[0;34m\]"
 purple="\[\033[0;35m\]"
 reset="\[\033[0m\]"
 cyan="\[\033[0;36m\]"
+yellow="\[\033[0;33m\]"
 
 # Change command prompt
 source ~/git-prompt.sh
@@ -14,4 +15,4 @@ export GIT_PS1_SHOWDIRTYSTATE=1
 # '\u' adds the name of the current user to the prompt
 # '\$(__git_ps1)' adds git-related stuff
 # '\W' adds the name of the current directory
-export PS1="$purple\u$green\$(__git_ps1)$cyan \W $ $reset"
+export PS1="$purple\u $yellow\h$green\$(__git_ps1)$cyan \W $ $reset"
