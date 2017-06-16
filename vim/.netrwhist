@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/ronak/Ronak/Insight/trello'
+let g:netrw_dirhist_2='/Users/ronak/Ronak/Insight/mydummyrepo/run.sh'
+let g:netrw_dirhist_3='/Users/ronak/Ronak/Insight/kafkalab-setup/ansible'
+let g:netrw_dirhist_4='/Users/ronak/Ronak/Insight/kafkalab-setup'
